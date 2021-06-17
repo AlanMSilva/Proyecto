@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo APP </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="todo-container">
+        <div id="tarea-window">   
+        <div id="actions" style="text-align: center;">To Do APP</div>
+        </div>
+        <input type="text" id="tarea" placeholder="Nombre de la Tarea">
+        <input type="text" id="descripcion" placeholder="Descripcion de la Tarea">
+        <button id="send">Publicar Tarea</button>
+        <table id="tabla"></table>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>  
+    <script src="app.js"></script>  
+</body>
+</html>

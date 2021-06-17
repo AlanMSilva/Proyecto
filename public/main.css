@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    font-family: Helvetica;
+}
+
+#todo-container {
+    background-color:  white;
+    margin: 200px auto 0 auto;
+    width: 70%;
+    border-radius: 10px;
+    
+}
+
+#tarea-window{ 
+    padding: 14px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#tabla td {
+    color: black;
+    padding: 14px 0;
+    margin: 0 20px;
+}
+
+#actions td{
+    padding: 14px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    background: #eee;
+    display: block;
+    width: 100%;
+}
+
+#send {
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+
+
+table { 
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    width: 100%;
+    display: flex;
+}
+
+td{
+    padding: 20px;
+}
+
+span{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+span:hover{
+    background-color: red;
+    color: white;
+}
+
+.completado{
+    background-color:  lightgreen;
+    border-radius: 10px;
+}
+
+
+@keyframes slide-up {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
